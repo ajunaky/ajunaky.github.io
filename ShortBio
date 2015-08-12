@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Ajuna Bio</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="masthead clearfix">
+            <div class="inner">
+              <nav>
+                <ul class="nav masthead-nav">
+                <li><a href="http://kyaruzia17.github.io"> </a>Home</li>
+                  <li class="page-scroll"><a href="http://kyaruzia17.github.io/Resume.pdf">My Resum&eacute</a></li>
+                </ul>
+              </nav>
+              <br></br>
+            </div>
+          </div>
+          <div class="inner cover">
+            <br>
+            <p class="lead">
+             I'm Ajuna, a budding developer hailing from Dar es Salaam, Tanzania.
+             <br>
+             This page is still under construction but please contact me for more information
+            </p>
+            <br>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <br> <br> <br> </br>
+              <p><strong>For more information please reach out </strong> </p>
+              <a href = "mailto:kyaruzia17@grinnell.edu">  
+                <img class ="email" src="images/email1.png" alt = "None" height="60" width="60"/></a> &nbsp &nbsp
+              <a href="https://facebook.com/askyaruzi">
+                <img class ="facebook" src="images/facebook.png" alt = "None" height="60" width="60"/></a> &nbsp &nbsp
+              <a href="https://twitter.com/Funky_AJ">
+                <img class="twitter" src="images/twitter1.png" alt = "None"
+                height="60" width="60"/></a> &nbsp &nbsp
+              <a href="http://www.linkedin.com/in/ajunakyaruzi">
+                        <img class ="linkedin" src="images/linkedin.png"
+                        alt = "None" height="64" width="64"/></a> &nbsp
+                        &nbsp
+                <a href="https://github.com/kyaruzia17">
+                        <img class ="git" src="images/github.png" alt =
+                        "None" height="60" width="64"/></a> &nbsp &nbsp
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>
