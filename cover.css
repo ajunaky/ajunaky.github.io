@@ -12,11 +12,7 @@ color: #fff;
 .btn-default:hover,
 .btn-default:focus {
 text-shadow: none;  
-/*background-image:url('black-wood.jpg') ;
-background-position: top left;
-background-repeat: repeat;
-border: 1px solid #fff;
-*/}
+}
 
 /*
 * Base structure
@@ -51,14 +47,6 @@ h4 {
 body {
 color: #fff;
 text-align: center;
-/* text-shadow: 0 1px 3px rgba(0,0,0,.5);
- background-image: url('http://www.freemages.fr/album/nature/prairie_posettes_chamonix.jpg') ;
-
-background-image: url('http://dnr.state.il.us/lands/Landmgt/parks/i&m/east/goose/images/PrairieScene.JPG') ;
-*
-background-image: url('http://images.doctissimo.fr/1/famille/nature/photo/hd/5814387581/1502522550/nature-prairie-big.jpg') ;
-background-image: url('http://digital.grinnell.edu/ojs/public/site/images/prairieadmin/main_bg1.jpg');
-*/
 background-color: black ;
 
 }
@@ -77,12 +65,6 @@ background-position: center;
 background-repeat: no-repeat;
 font-size: 1.0em;
 background-color: 'black' ;
-/*
- background-image: url('http://images.doctissimo.fr/1/famille/nature/photo/hd/5814387581/1502522550/nature-prairie-big.jpg');
- filter: grayscale(100%);
-
-background-image: url('http://digital.grinnell.edu/ojs/public/site/images/prairieadmin/main_bg1.jpg');
-*/
 }
 
 .site-wrapper2 {
@@ -97,13 +79,6 @@ background-position: center;
 background-repeat: no-repeat;
 font-size: 1.0em;
 background-color: 'black' ;
-/*                                                                                                     
- background-image: url('http://images.doctissimo.fr/1/famille/nature/photo/hd/5814387581/1502522550/na\
-ture-prairie-big.jpg');                                                                                
- filter: grayscale(100%);                                                                              
-                                                                                                       
-background-image: url('http://digital.grinnell.edu/ojs/public/site/images/prairieadmin/main_bg1.jpg');
-*/
 }
 .site-wrapper-inner {
 display: table-cell;
@@ -279,29 +254,3 @@ display: inline-block;
 .git:hover{
 opacity: 1;
 }
-/*
-.scroll-top {
-    z-index: 1049;
-    position: fixed;
-    right: 2%;
-    bottom: 2%;
-    width: 50px;
-    height: 50px;
-}
-
-.scroll-top .btn {
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    font-size: 20px;
-    line-height: 28px;
-}
-
-.scroll-top .btn:focus {
-    outline: 0;
-}
-
-.visible-xs {
-    display: block !important;
-}
-*/
