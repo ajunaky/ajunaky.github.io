@@ -34,11 +34,14 @@
           </div>
           <div id="HOME">
           <div class="inner cover">
-            <br>
-            <p class="lead">Hello there, my name is 
-            <strong>Ajuna</strong>, a rising senior majoring in Computer Science at Grinnell College.   
-            </p>
-            <br>
+		    <div class="row" style="margin-bottom:100pt">
+		      <div class="large-1 columns"></div>
+		      <div class="large-5 large-offset-6 columns"> 
+		        <div id="wrap"> 
+		          <span id="typed" style="white-space:pre;"></span>
+		        </div>
+		      </div>       
+		    </div>
           </div>
 
           <div class="mastfoot">
@@ -63,4 +66,32 @@
           </div>
         </div>
       </div>
+    
+      <script src="js/jquery.js"></script>
+      <script src="js/foundation.min.js"></script>
+      <script src="js/waypoints.js"></script>
+      <script>
+        $(document).foundation();
+      </script>
+          <script src="js/typed.js" type="text/javascript"></script>
+      <script>
+      $(function(){
+
+          $("#typed").typed({
+              strings: ["Hey. I'm Ajuna. \nI am a rising senior at Grinnell College \n& I'm an Software Engineering Intern at Google."],
+              typeSpeed: 30,
+              backDelay: 500,
+              loop: false,
+              // defaults to false for infinite loop
+              loopCount: false,
+              callback: function(){},
+              resetCallback: function() { newTyped(); }
+          });
+
+      });
+
+
+      </script>
+      <script src="js/main.js"></script>
   </body>
+  </html>
