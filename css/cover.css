@@ -211,46 +211,13 @@ img.bg {
     margin-left: -512px;   /* 50% */
   }
 }
-.twitter{
+.social{
 opacity: 0.6;
 display: inline-block;
+height: 60;
+width: 60;
 }
 
-.twitter:hover{
-opacity: 1;
-}
-
-.facebook{
-opacity: 0.6;
-display: inline-block;
-}
-
-.facebook:hover{
-opacity: 1;
-}
-
-.email{
-opacity: 0.6;
-display: inline-block;
-}
-.email:hover{
-opacity: 1;
-}
-
-.linkedin{
-opacity: 0.6;
-display: inline-block;
-}
-
-.linkedin:hover{
-opacity: 1;
-}
-
-.git{
-opacity: 0.6;
-display: inline-block;
-}
-
-.git:hover{
+.social:hover{
 opacity: 1;
 }
