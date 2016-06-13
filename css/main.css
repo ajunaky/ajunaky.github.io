@@ -19,12 +19,6 @@ h1 {
     text-align: center;
 }
 
-#wrap {
-    max-width: 300px;
-    height: 100px;
-    color: white;
-}
-
 .headertitle {
 	display: inline-block;
 	margin-top: 20pt;
@@ -93,7 +87,7 @@ h1 {
 	font-family: "Playfair Display";
 	font-size: 22px;
 	font-weight: 300;
-	color:#515151;
+	color:white;
 	font-style: normal;
 }
 
@@ -105,7 +99,7 @@ h1 {
 	font-family: "Playfair Display";
 	font-size: 16px;
 	font-weight: 300;
-	color:#515151;
+	color:white;
 	font-style: normal;
 }
 
