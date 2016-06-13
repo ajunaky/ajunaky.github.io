@@ -91,10 +91,6 @@ h1 {
 	font-style: normal;
 }
 
-.text a:hover {
-	color: #D2B109;
-}
-
 .textTiny {
 	font-family: "Playfair Display";
 	font-size: 16px;
