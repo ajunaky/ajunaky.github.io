@@ -153,6 +153,15 @@ height: 60px;
 width: 60px;
 }
 
+.download{
+opacity: 0.7;
+height: 50px;
+width: 50px;
+}
+
+.download:hover {
+	opacity:1;
+}
 .social:hover{
 opacity: 1;
 }
