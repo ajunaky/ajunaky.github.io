@@ -16,14 +16,22 @@ text-shadow: none;
 /*
 * Base structure
 */
-html, a, body {
+html, a, body{
 height: 100%;
-font-size: 1.7 em;
+font-size: 1.2 em;
 font-family: 'Playfair Display', 'Lora', serif;
 color: white;
 text-align: center;
 background-color: black ;
+}
 
+#typed {
+	height: 100%;
+	font-size: 1.7 em;
+	font-family: 'Playfair Display', 'Lora', serif;
+	color: white;
+	text-align: center;
+	background-color: black ;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */	
