@@ -20,12 +20,8 @@ text-shadow: none;
 html, a
 body {
 height: 100%;
-color: #333 ;
 font-size: 1.7 em;
 font-family: 'Playfair Display', 'Lora', serif;
-}
-
-body {
 color: white;
 text-align: center;
 background-color: black ;
@@ -112,7 +108,7 @@ float: left;
 .masthead-nav {
 float: right;
 }
-}
+
 /*
 * Cover
 */
@@ -149,7 +145,6 @@ vertical-align: middle;
 .mastfoot,
 .cover-container {
 width: 100%; /* Must be percentage or pixels for horizontal alignment */
-}
 }
 
 
