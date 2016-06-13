@@ -1,0 +1,295 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: 'Red';
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 55pt;
+	font-weight: 300;
+}
+
+#projectSquare {
+    width: 200px;
+    height: 200px;
+    color: white;
+    margin: 0 auto;
+    font-family: 'Lobster', serif;
+    font-size: 20pt;
+    text-align: center;
+}
+
+#wrap {
+    max-width: 300px;
+    height: 100px;
+    color: #5C5C5C;
+    margin: 0 auto;
+}
+
+.headertitle {
+	display: inline-block;
+	margin-top: 20pt;
+	text-align: center;
+	color:white;
+}
+
+.aqua {
+	color: #219295;
+}
+
+.yellow {
+	color: #D2B109;
+}
+
+.logo {
+	width: 70pt;
+	margin-left:7pt;
+}
+
+.social {
+	text-align: center;
+	padding-top: 200px;
+}
+
+.social a {
+	color: #969696;
+	font-size: 2.5em;
+}
+
+.social a:hover {
+	color: #219295;
+}
+
+.social a:hover .yel {
+	color: #D2B109;
+}
+
+.headerTitle {
+	text-align: center;
+	font-size: 40pt;
+	font-family: "Merriweather", serif;
+	color: #219295;
+	cursor: pointer;
+	font-style: italic;
+	font-weight: 700;
+}
+
+.resources {
+	color:white;
+	font-weight: 700;
+	text-align: center;
+	font-family: "Merriweather", serif;
+	font-size: 15pt;
+	font-style: italic;
+}
+
+ul.resources li, a {
+	font-family: "Lato";
+	text-align: left;
+	font-size: 10pt;
+	font-weight: 300;
+	color:#196E70;
+	list-style-type: disc;
+	font-style: normal;
+}
+
+ul.resources a {
+	font-weight: 300;
+}
+
+ul.resources li a:hover {
+	color:white;
+}
+
+// typed
+
+#typed {
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.projects {
+	margin-top:10pt;
+}
+
+.wideContentBox {
+	height:100%;
+}
+
+.content {
+	display:none;
+}
+
+#footer {
+	background-color:white;
+}
+
+.yelbox {
+	background-color: white;
+}
+
+.blubox {
+	background-color: #BBDCDC;
+}
+
+.blubox img {
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	transition-duration: 0.5s, 0.3s;
+	-webkit-transition-duration: 0.5s, 0.3s;
+	-moz-transition-duration: 0.5s, 0.3s;
+	-o-transition-duration: 0.5s, 0.3s;
+	-ms-transition-duration: 0.5s, 0.3s;
+	width:50px;
+	height:50px;
+}
+
+.blubox img:hover {
+	filter: none;
+	-webkit-filter: none;
+	-moz-filter: none;
+	-o-filter: none;
+	-ms-filter: none;
+	transition-duration: 0.5s, 0.3s;
+	-webkit-transition-duration: 0.5s, 0.3s;
+	-moz-transition-duration: 0.5s, 0.3s;
+	-o-transition-duration: 0.5s, 0.3s;
+	-ms-transition-duration: 0.5s, 0.3s;
+}
+
+.profilePhoto {
+	text-align: center;
+	padding-bottom: 10pt;
+}
+
+.profilePhoto img {
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	transition-duration: 0.5s, 0.3s;
+	-webkit-transition-duration: 0.5s, 0.3s;
+	-moz-transition-duration: 0.5s, 0.3s;
+	-o-transition-duration: 0.5s, 0.3s;
+	-ms-transition-duration: 0.5s, 0.3s;
+	width:150px;
+	height:150px;
+	margin-left: 10pt;
+	margin-right: 10pt;
+	margin-bottom: 10pt;
+}
+
+.profilePhoto img:hover {
+	filter: none;
+	-webkit-filter: none;
+	-moz-filter: none;
+	-o-filter: none;
+	-ms-filter: none;
+	transition-duration: 0.5s, 0.3s;
+	-webkit-transition-duration: 0.5s, 0.3s;
+	-moz-transition-duration: 0.5s, 0.3s;
+	-o-transition-duration: 0.5s, 0.3s;
+	-ms-transition-duration: 0.5s, 0.3s;
+}
+
+.text {
+	font-family: "Lato";
+	text-align: left;
+	font-size: 22px;
+	font-weight: 300;
+	color:#515151;
+	font-style: normal;
+}
+
+.text a:hover {
+	color: #D2B109;
+}
+
+.textTiny {
+	font-family: "Lato";
+	text-align: left;
+	font-size: 16px;
+	font-weight: 300;
+	color:#515151;
+	font-style: normal;
+}
+
+.emphasis {
+	font-family: "Merriweather";
+	text-align: left;
+	font-size: 22px;
+	font-weight: 300;
+	color:#515151;
+	font-style: italic;
+}
+
+.8tracks {
+		width:512px;
+		height:256px;
+}
+
+.youtube {
+		width:512;
+		height:256;
+}
+
+// mediaqueries
+
+@media only screen and (max-width: 1024px) {
+
+	.headertitle h1 {
+		font-size: 40pt;
+	}
+
+	.logo {
+		width: 40pt;
+	}
+}
+
+@media only screen and (min-width: 550px) and (max-width: 1000px) {
+
+	.headertitle h1 {
+		font-size: 30pt;
+	}
+
+	.logo {
+		width: 30pt;
+	}
+
+	.8tracks {
+		width:256px;
+		height:128px;
+	}
+
+	.youtube {
+		display: none;
+	}
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 549px) {
+
+	.headertitle h1 {
+		font-size: 20pt;
+	}
+
+	.logo {
+		width: 20pt;
+	}
+
+	.8tracks {
+		width:128px;
+		height:64px;
+	}
+
+	.youtube {
+		display: none;
+	}
+}
+
+
+
