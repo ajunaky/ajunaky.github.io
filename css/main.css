@@ -14,7 +14,7 @@ h1 {
     height: 200px;
     color: white;
     margin: 0 auto;
-    font-family: 'Lobster', serif;
+    font-family: 'Lora', serif;
     font-size: 20pt;
     text-align: center;
 }
@@ -22,7 +22,7 @@ h1 {
 #wrap {
     max-width: 300px;
     height: 100px;
-    color: #5C5C5C;
+    color: white;
     margin: 0 auto;
 }
 
@@ -59,15 +59,11 @@ h1 {
 	background-color:white;
 }
 
-.yelbox {
+.box {
 	background-color: white;
 }
 
-.blubox {
-	background-color: #BBDCDC;
-}
-
-.blubox img {
+.box img {
 	filter: grayscale(100%);
 	-webkit-filter: grayscale(100%);
 	-moz-filter: grayscale(100%);
@@ -82,7 +78,7 @@ h1 {
 	height:50px;
 }
 
-.blubox img:hover {
+.box img:hover {
 	filter: none;
 	-webkit-filter: none;
 	-moz-filter: none;
@@ -119,11 +115,11 @@ h1 {
 }
 
 .emphasis {
-	font-family: "Merriweather";
+	font-family: "Playfair Display";
 	text-align: left;
 	font-size: 22px;
 	font-weight: 300;
-	color:#515151;
-	font-style: italic;
+	color:red;
+	font-style: normal;
 }
 
