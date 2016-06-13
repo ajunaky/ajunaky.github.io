@@ -214,8 +214,8 @@ img.bg {
 .social{
 opacity: 0.6;
 display: inline-block;
-height: 60;
-width: 60;
+height: 10;
+width: 10;
 }
 
 .social:hover{
