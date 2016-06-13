@@ -94,7 +94,6 @@ h1 {
 
 .text {
 	font-family: "Playfair Display";
-	text-align: left;
 	font-size: 22px;
 	font-weight: 300;
 	color:#515151;
@@ -107,7 +106,6 @@ h1 {
 
 .textTiny {
 	font-family: "Playfair Display";
-	text-align: left;
 	font-size: 16px;
 	font-weight: 300;
 	color:#515151;
@@ -116,7 +114,6 @@ h1 {
 
 .emphasis {
 	font-family: "Playfair Display";
-	text-align: left;
 	font-size: 22px;
 	font-weight: 300;
 	color:red;
