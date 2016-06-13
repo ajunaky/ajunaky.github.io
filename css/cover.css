@@ -2,9 +2,8 @@
 * Globals
 */
 /* Links */
-a:focus,
-a:hover {
-color: #fff;
+a:focus, a:visited, a:hover {
+color: #885ead;
 }
 /* Custom default button */
 
@@ -17,8 +16,7 @@ text-shadow: none;
 /*
 * Base structure
 */
-html, a
-body {
+html, a, body {
 height: 100%;
 font-size: 1.7 em;
 font-family: 'Playfair Display', 'Lora', serif;
