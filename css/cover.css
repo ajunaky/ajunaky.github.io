@@ -17,11 +17,11 @@ text-shadow: none;
 /*
 * Base structure
 */
-html,
+html, a
 body {
 height: 100%;
 color: #333 ;
-font-size: 1.4 em;
+font-size: 1.7 em;
 font-family: 'Playfair Display', 'Lora', serif;
 }
 
