@@ -22,30 +22,11 @@ body {
 height: 100%;
 color: #333 ;
 font-size: 1.4 em;
+font-family: 'Exo 2', sans-serif;
 }
-
-h1{
-    font-family: Helvetica, sans-serif;
-    font-size: 8.0em;
-}
-
-h2 {
-    font-family: Helvetica, sans-serif;
-    font-size: 2.5em;
-}
-h3 {
-    font-family: Helvetica, sans-serif;
-    font-size: 2.1em;
-}
-
-h4 {
-    font-family: Helvetica, sans-serif;
-    font-size: 1.8em;
-}
-
 
 body {
-color: #fff;
+color: white;
 text-align: center;
 background-color: black ;
 
