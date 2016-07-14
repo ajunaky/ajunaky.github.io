@@ -1,0 +1,514 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+
+    <title>Hellosunschein.</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/vendor/modernizr.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,100italic,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="fonts/foundation-icons/foundation-icons.css" />
+
+    <link rel="stylesheet" href="css/main.css" />
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-43332662-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+  </head>
+  <body>
+
+      <div class="row">
+      <div class="large-5 large-centered columns">
+        <div class="social">
+        <a href="https://twitter.com/hellosunschein" target="_blank"><i class="fi-social-twitter" > </i></a>
+        <a href="mailto:lea.marolt@gmail.com?Subject=Howdy!" target="_top"><i class="fi-mail yel"> </i></a>
+        <a href="https://github.com/leamars" target="_blank"><i class="fi-social-github"> </i></a>
+        <a href="http://si.linkedin.com/in/leamarolt" target="_blank"><i class="fi-social-linkedin yel"> </i></a>
+        <a href="http://neparlepasraison.tumblr.com/" target="_blank"><i class="fi-social-tumblr"> </i></a>
+        <a href="https://medium.com/@hellosunschein" target="_blank"><i class="fi-social-medium yel"> </i></a>
+        <a href="https://dribbble.com/hellosunschein" target="_blank"><i class="fi-social-dribbble"> </i></a>
+        <a href="http://8tracks.com/hellosunschein" target="_blank"><i class="fi-music yel"> </i></a>
+      </div>
+      </div>
+
+  <div class="wideContentBox">
+    <div class="large-12 columns headertitle">
+        <h1 class="aqua animated flipInX">H E L L <img class="logo" src="assets/hellosunschein_icon5.png" /> <span class="yellow">S U N S C H E I N</span></h1>
+      </div>
+    </div>
+
+
+
+    <div class="row" style="margin-bottom:100pt">
+      <div class="large-1 columns"></div>
+      <div class="large-5 large-offset-6 columns"> 
+        <div id="wrap"> 
+          <span id="typed" style="white-space:pre;"></span>
+        </div>
+      </div>       
+    </div>
+
+    </div>
+    </div>
+
+
+    <!--
+    <nav>
+    <div class="navbar" data-options="sticky_on: large">
+      <ul>
+        <li><a href="#work">WORK</a> | </li>
+        <li><a href="#resources">RESOURCES</a> | </li>
+        <li><a href="#about">ABOUT</a></li>
+      </ul>
+    </div>
+    </nav>
+    -->
+    <div class="blubox">
+      <div class="row head">
+          <div class="headerTitle">work</div>
+      </div>
+      <div class="content">
+      <div class="large-10 large-centered columns blubox">
+      <div class="large-8 large-centered columns text">
+      <center>
+
+          <a href="http://www.presevent.com/" target="_blank"><img src="assets/presevent.png"/></a>
+           </br>
+           <a href="http://www.presevent.com/" target="_blank" style="font-size:22px;">Presevent</a>
+           <span class="textTiny">
+           </br><a href="https://www.facebook.com/presevent" target="_blank">Facebook</a> | <a href="https://twitter.com/presevent" target="_blank">Twitter</a> | <a href="http://www.presevent.com/" target="_blank">Website</a>
+          </br>
+          Presevent tracks upcoming Election 2016 speeches and fundraisers, so that you can see presidential candidates on the trail before you see them in the White House.
+          </span>
+          </br></br>
+
+           <a href="http://grinnellappdev.com/" target="_blank"><img src="assets/appdev.png"/></a>
+           </br>
+           <a href="http://grinnellappdev.com/" target="_blank" style="font-size:22px;">Grinnell AppDev</a>
+           <span class="textTiny">
+           </br><a href="https://github.com/grinnellappdev" target="_blank">GitHub</a> | <a href="https://www.facebook.com/GrinnellAppdev" target="_blank">Facebook</a> | <a href="https://twitter.com/grinnellappdev" target="_blank">Twitter</a> | <a href="http://grinnellappdev.com/" target="_blank">Website</a>
+          </br>
+          I co-lead Grinnell Appdev - a student organization dedicated to creating software applications to serve both students and the larger Grinnell community. We believe that a collaborative and engaging creation environment not only produces the best applications but also provides valuable experience and skillsets for Grinnell graduates to take with them on any career path. Since 2012 Grinnell Appdev has trained the next generation of programmers and entrepreneurs to create and publicize a wide variety of products.
+          </span>
+          </br></br>
+
+          <a href="http://guarded-sea-4243.heroku.com/" target="_blank"><img src="assets/foodpantry.png"/></a>
+          </br>
+          <a href="http://guarded-sea-4243.heroku.com/" target="_blank" style="font-size:22px">Food Pantry</a>
+          <span class="textTiny">
+          </br><a href="https://github.com/CSC322-Grinnell/foodpantry" target="_blank">GitHub</a> | <a href="http://slides.com/leamaroltsonnenschein/foodpantry#/" target="_blank">Project Statement</a> | <a href="http://guarded-sea-4243.heroku.com/" target="_blank">Website</a>
+          </br>
+           The Food Pantry was a project build in our CS 322 - Team Software Development for Community Organizations. Our group partnered with <a href="http://www.micaonline.org/" traget="_blank" style="font-size:22px">MICA's</a> Poweshiek County to create a mobile-friendly, and more accessible way for donors to find out what donations will best serve the Food Pantry at what time.
+          </span>
+          </br></br>
+
+          <img src="assets/tauss.png"/>
+          </br>
+          Tauss 
+          <span class="textTiny">
+          </br><a href="https://github.com/leamars/Tauss" target="_blank">GitHub</a> | <a href="http://bit.ly/1wINSlL" target="_blank">Design</a>
+          </br>
+          Tauss was an experiment to create a worldwide anonymous photo sharing application that would democratize content sharing, and promote content based on it's quality (as judged by our users), not one's popularity. Unfortunately, it never saw the light of day, but was still an interesting experience.
+          </span>
+          </br></br>
+
+          <a href="http://www.voyse.me/" target="_blank"><img src="assets/voyse.png"/></a>
+          </br>
+          Voyse 
+          <span class="textTiny">
+          </br><a href="http://www.voyse.me/" target="_blank">Website</a>
+          </br>
+          Created the landing page for an awesome encrypted voice-messaging mobile app - Voyse!
+          Get the <a href="https://itunes.apple.com/app/id898953295" target="_blank">iOS</a> or <a href="https://play.google.com/store/apps/details?id=com.criticalideas.voyse" target="_blank">Android</a> version!
+          </span>
+          </br></br>
+
+          <a href="https://itunes.apple.com/us/app/scarlet-black/id925564328?mt=8" target="_blank"><img src="assets/sandb.png"/></a>
+          <a href="https://itunes.apple.com/us/app/g-licious/id523738999?mt=8" target="_blank"><img src="assets/glicious.png"/></a>
+          <a href="https://itunes.apple.com/us/app/grinnell-events/id924312300?mt=8" target="_blank"><img src="assets/gevents.png"/></a>
+          <a href="https://itunes.apple.com/us/app/scarlet-black/id925564328?mt=8" target="_blank"><img src="assets/grinwell.png"/></a>
+          </br>
+          <a href="http://guarded-sea-4243.heroku.com/" target="_blank" style="font-size:22px">Grinnell AppDev Apps</a>
+          <span class="textTiny">
+          </br>
+          <a href="https://github.com/GrinnellAppDev/SandB-iOS" target="_blank">S&B</a> | 
+          <a href="https://github.com/GrinnellAppDev/Grinnell-Menu-iOS" target="_blank">G-licious</a> |
+          <a href="https://github.com/GrinnellAppDev/Grinnell-Events-iOS" target="_blank">Grinnell Events</a> |
+          <a href="https://github.com/GrinnellAppDev/GrinWell-iOS" target="_blank">#grinwell</a> 
+          </br>
+           Released applications I've worked on as part of Grinnell AppDev, and their codebasese.
+          </span>
+          </br></br>
+
+          <a href="http://pioneerweekend.strikingly.com/" target="_blank"><img src="assets/pweekend.png"/></a>
+          </br>
+          <a href="http://pioneerweekend.strikingly.com/" target="_blank" style="font-size:22px">Pioneer Weekend</a>
+          <span class="textTiny">
+          </br><a href="http://pioneerweekend.strikingly.com/" target="_blank">Website</a> | <a href="https://www.eventbrite.com/e/pioneer-weekend-tickets-10824172391" target="_blank">Tickets</a>
+          </br>
+           Pioneer Weekend is a three day event, sponsored by the Wilson Program and Grinnell AppDev. The objective of this event is to bring together student innovators from different backgrounds, to work together in teams of 3 - 6 people and complete a prototype of an idea that they come up with at the event. I created the brand, artwork, t-shirts, and helped organize the event.
+          </span>
+          </br></br>
+
+          <a href="https://github.com/leamars/WWDC2015" target="_blank"><img src="assets/wwdc2015.png"/></a>
+          <a href="https://github.com/leamars/Earthquakes" target="_blank"><img src="assets/earthquakes.png"/></a>
+          <a href="https://github.com/leamars/CardForm" target="_blank"><img src="assets/cardreader.png"/></a>
+          <a href="https://github.com/leamars/Quoted" target="_blank"><img src="assets/quoted.png"/></a>
+          <a href="https://github.com/leamars/Remember" target="_blank"><img src="assets/remember.png"/></a>
+          <a href="https://github.com/leamars/LeaMaroltSonnenschein" target="_blank"><img src="assets/lea.png"/></a>
+          <a href="https://github.com/leamars/Scripts" target="_blank"><img src="assets/scripts.png"/></a>
+          <a href="#" target="_blank"><img src="assets/homebase.png"/></a>
+          </br>
+          <a href="http://github.com/leamars" target="_blank" style="font-size:22px">Personal Projects</a>
+          <span class="textTiny">
+          </br>
+          <a href="https://github.com/leamars/WWDC2015" target="_blank">WWDC 2015</a> |
+          <a href="https://github.com/leamars/Earthquakes" target="_blank">Earthquakes</a> |
+          <a href="https://github.com/leamars/CardForm" target="_blank">Card Reader</a> |
+          <a href="https://github.com/leamars/Quoted" target="_blank">Quoted</a> |
+          <a href="https://github.com/leamars/Remember" target="_blank">Remember</a> | 
+          <a href="https://github.com/leamars/LeaMaroltSonnenschein" target="_blank">WWDC 2014</a> |
+          <a href="https://github.com/leamars/Scripts" target="_blank">Scripts</a> |
+          <a href="#" target="_blank">Homebase</a> 
+          </br>
+           Non-(yet)-release personal projects built primarily for learning purposes. 
+          The first and the fifth one took me to <a href="http://www.buzzfeed.com/chantelhouston/this-is-what-its-like-to-be-a-girl-who-codes#.rxrWl0l6X">WWDC 2015</a> and <a href="http://appleinsider.com/articles/14/06/09/apples-200-student-wwdc-attendees-super-excited-about-the-future-of-tech">WWDC 2014</a>, respectively, on a student scholarship!
+          </br></br>
+
+          <a href="http://www.usatoday.com/story/tech/columnist/talkingtech/2014/06/05/app-experts-pick-their-favorites-heres-whats-hot/10032697/"> <img src="assets/wwdc.png"/ style="height:150px; width:150px;"></a>
+          </span>
+          </br></br>
+
+      </center>
+    </div>
+    </div>
+    </div>
+    </div>
+
+      <div class="yelbox">
+      <div class="row head">
+          <div class="headerTitle" style="color: #D2B109">about</div>
+      </div>
+      <div class="content">
+      <div class="large-10 large-centered columns yelbox">
+      <div class="projects resources">
+
+
+        <div class="large-8 large-centered columns text">
+<!--         <div class="profilePhoto">
+          <img src="assets/leaprofile.png" />
+        </div> -->
+          I hail from the lovely <a href="http://www.slovenia.si/" class="emphasis" target="_blank">Slovenia</a> and am currently a senior at <a href="http://www.grinnell.edu/" class="emphasis"  target="_blank">Grinnell College</a>, majoring in Computer Science <span class="textTiny">(& almost in Studio Art).</span> I consider myself a mix between a <a href="https://github.com/leamars" class="emphasis" target="_blank">developer</a>, <a href="https://dribbble.com/hellosunschein" class="emphasis" target="_blank">designer</a> and <a href="http://grinnellappdev.com/" class="emphasis" target="_blank">product manager</a>. Here's my face:
+          </br></br>
+          <div class="profilePhoto">
+          <img src="assets/leaprofile3.png"/>
+          <img src="assets/leaprofile2.png"/>
+          <img src="assets/leaprofile.png"/>
+          </div>
+          My tools of the trade are <a href="http://www.sublimetext.com/" class="emphasis" target="_blank">sublime</a>, <a href="https://developer.apple.com/xcode/" class="emphasis" target="_blank">Xcode</a> and <a href="http://bohemiancoding.com/sketch/" class="emphasis" target="_blank">Sketch</a>! My main goal is understanding how I can come up with the best possible solution for a user. As such, some of my professional interests are:
+          <span class="emphasis"> 
+          <ul style="text-align: center; list-style-type: none;"></br>
+            <li>mobile applications</li> 
+            <li>human-computer interaction</li> 
+            <li>interaction design</li> 
+            <li>psychology</li> 
+            <li>artificial intelligence</li> 
+            <li>machine learning</li>
+          </ul></span>
+          After a few years in the work force, I'm planning on pursuing a Masters or a PhD in one of those areas.
+          </br></br>
+          But right now, my main goal is to find a job that would challenge me, and allow me to learn as much as possible. Preferrably in the realm of iOS or OSX applications (:
+          </br></br>
+          So, if you're looking to hire an iOS dev who gets things done, <a href="mailto:lea.marolt@gmail.com?Subject=Howdy!" target="_top" class="emphasis">let me know</a>! Oh, and here's my <a href="https://drive.google.com/file/d/0B9mNz6bLqkXSMVB4MC05VFVRcWs/view?usp=sharing" target="_blank" class="emphasis">resume</a>.
+          </br></br>
+          In other news, I'm a fan of <a href="#" class="emphasis" target="_blank">screen printing</a>, <a href="https://soundcloud.com/leyamars" class="emphasis" target="_blank">composing</a> and making <a href="#" class="emphasis" target="_blank">playlists</a> of unknown Swedish bands <span class="textTiny">(and others...)</span>. Here's my favorite playlist: 
+          </br></br>
+
+          <div class="8tracks"><center><iframe src="http://8tracks.com/mixes/497845/player_v3_universal"></iframe></center></div>
+
+          </br> 
+
+          Sometimes I <a href="https://medium.com/@hellosunschein" class="emphasis" target="_blank">write things</a>, but I spend most of my free time <a href="https://www.goodreads.com/user/show/7288343-lea" class="emphasis" target="_blank">reading</a> and drinking <a href="https://www.google.com/search?q=coffee&espv=2&biw=1418&bih=701&source=lnms&tbm=isch&sa=X&ei=jkegVMGhBIPyUKqFgaAL&ved=0CAcQ_AUoAg" class="emphasis" target="_blank">coffee or tea</a> in my rocking chair.
+          </br></br>
+
+          I also play the <a href="//www.youtube.com/embed/Sn0vybzqwGk" class="emphasis" target="_blank">piano</a>.
+          </br></br>
+
+          <div class="youtube"><center><iframe src="//www.youtube.com/embed/Sn0vybzqwGk"></iframe></center></div>
+
+          During WWDC 2015, BuzzFeed and Apple chose me as one of the 5 student female developers to promote inclusion and engagement of girls in tech! 
+          </br></br>
+
+          <div class="youtube"><center><iframe src="//www.youtube.com/embed/MyGh89qizME"></iframe></center></div>
+
+          AND I got to meet Tim Cook!
+          </br></br>
+          <div style="text-align: center;">
+          <img style="width:300px; height:200px;" src="https://pbs.twimg.com/media/CG8lYvsUcAAnift.jpg"/>
+          </div>
+             
+          <div style="text-align: center;">Ciao!
+          </div>
+
+          </br>
+        </div>
+
+     </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="blubox">
+      <div class="row head">
+          <div class="headerTitle">resources</div>
+      </div>
+      <div class="content">
+      <div class="large-10 large-centered columns blubox">
+      <div class="projects">
+        <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4">
+          <li style="margin:auto">
+            <ul class="resources" id="generalTutorials"> general
+                    <li><a href="http://www.accreditedschoolsonline.org/online-schools-guidebook/">Online Schools</a></li>
+                    <li><a href="http://www.codequizzes.com/">CodeQuizzes</a></li>
+                    <li><a href="http://prework.flatironschool.com/">Flatiron School</a></li>
+                    <li><a href="http://afowfow.tumblr.com/">Wizard in Training</a> - simple video tutorials</li>
+                    <li><a href="http://www.microsoftvirtualacademy.com/training-courses/learn-html5-with-javascript-css3-jumpstart-training">Microsoft's Html5, JavaScript and CSS3 Jumpstart</a></li>
+                    <li><a href="http://webdesign.tutsplus.com/">Webdesign Tuts+</a></li>
+                    <li><a href="http://designmodo.com/tutorials/">Designmodo Webdesign Tutorials</a></li>
+                    <li><a href="https://p2pu.org/en/schools/school-of-webcraft/">School of Webcraft</a></li>
+                    <li><a href="http://learncss.tutsplus.com/">30 Days to learn HTML/CSS</a></li>
+                    <li><a href="http://hackdesign.org/">HackDesign</a></li>
+                    <li><a href="http://learn.shayhowe.com/html-css/">A Beginner's Guide to HTML &amp; CSS</a></li>
+                    <li><a href="http://channel9.msdn.com/Series/HTML5-CSS3-Fundamentals-Development-for-Absolute-Beginners">HTML5 &amp; CSS3 Fundamentals</a></li>
+                    <li><a href="http://www.dontfeartheinternet.com/">Don't Fear the Internet</a></li> 
+                    <li><a href="http://www.singpath.com/">Singpath</a></li>
+                    <li><a href="https://www.udemy.com/">Udemy</a></li>
+                    <li><a href="http://www.microsoftvirtualacademy.com/">Microsoft Virtual Academy</a></li>
+                    <li><a href="https://plus.google.com/+GoogleOnlineCourses">Google Online Courses</a></li>
+                    <li><a href="http://www.lynda.com/">Lynda</a></li>
+                    <li><a href="https://www.coursera.org">Coursera</a></li>
+                    <li><a href="https://www.udacity.com/">Udacity</a> - tech oriented only</li>
+                    <li><a href="http://scratch.mit.edu/">Sreatch</a> - MIT, for kids</li>
+                    <li><a href="https://www.khanacademy.org/cs">Khan Academy</a></li>
+                    <li><a href="http://www.teachingtree.co/">Teaching Tree</a></li>
+                    <li><a href="https://www.edx.org/course-list/allschools/allsubjects/allcourses">edX</a> - university courses</li>
+                    <li><a href="http://www.learnstreet.com/">LearnStreet</a></li>
+            </ul>
+            <ul class="resources" id="fontsAndSymbols"> fonts & symbols
+                    <li><a href="http://www.google.com/fonts/">Google Fonts</a> - free</li>
+                    <li><a href="http://www.myfonts.com/">MyFonts</a></li>
+                    <li><a href="https://typekit.com/">Typekit</a></li>
+                    <li><a href="http://fontdeck.com/">Fontdeck</a></li>
+                    <li><a href="http://www.fonts.com/">Fonts</a></li>
+                    <li><a href="http://www.fontsquirrel.com/">Font Squirrel</a> - free</li>
+                    <li><a href="http://symbolset.com/">Symbolset</a></li>
+                    <li><a href="http://pictos.cc/">Pictos</a></li>
+                    <li><a href="http://icomoon.io/">IcoMoon</a></li>
+                    <li><a href="http://thenounproject.com/">The Noun Project</a></li>
+                    <li><a href="http://www.designkindle.com/">Design Kindle</a></li>
+                    <li><a href="http://www.losttype.com/">Lost Type</a></li>
+            </ul>
+          </li>
+          <li>
+            <ul class="resources" id="hardcoreLearning"> hardcore learning
+                    <li><a href="https://code.google.com/p/iui/">Code School</a></li>
+                    <li><a href="http://codeacademy.com/">Code Academy</a></li>
+                    <li><a href="http://teamtreehouse.com/">Team Treehouse</a></li>
+                    <li><a href="http://www.starterleague.com/">Starter League</a></li>
+                    <li><a href="http://devbootcamp.com/faq/">Dev Bootcamp</a></li>
+                    <li><a href="https://www.thinkful.com">Thinkful</a></li>
+                    <li><a href="http://thecodeplayer.com/">The Code Player</a></li>
+                    <li><a href="http://yuilibrary.com/">YUI</a></li>
+            </ul>
+            <ul class="resources" id="generalTutorials"> community
+                    <li><a href="http://forrst.com/">Forrst</a> - share work and get feedback</li>
+            </ul>
+            <ul class="resources" id="generalTutorials"> references
+                    <li><a href="http://alvit.de/handbook/">Web Developer's Handbook</a></li>
+                    <li><a href="http://docs.webplatform.org/wiki/Main_Page">Webplatform</a></li>
+                    <li><a href="http://movethewebforward.org/">Move the Web Forward</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference?redirectlocale=en-US&redirectslug=CSS%2FCSS_Reference">CSS Reference</a></li>
+            </ul>
+            <ul class="resources" id="generalTutorials"> frameworks
+                    <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+                    <li><a href="http://foundation.zurb.com/">Foundation</a></li>
+                    <li><a href="http://compass-style.org/">Compass </a> - CSS Authoring Framework</li>
+                    <li><a href="http://gumbyframework.com/">Gumby</a></li>
+                    <li><a href="http://www.getskeleton.com/">Skeleton</a></li>
+                    <li><a href="http://matthewhartman.github.io/base/">Base</a></li>
+                    <li><a href="http://www.responsivegridsystem.com/">Responsive Grid System</a></li>
+                    <li><a href="http://inuitcss.com/">inuitcss</a></li>
+            </ul>
+            <ul class="resources" id="generalTutorials"> blogs
+                    <li><a href="http://blog.whatwg.org/">WHATWG</a></li>
+                    <li><a href="http://html5doctor.com/">Html5 Doctor</a></li>
+                    <li><a href="http://css-tricks.com/">CSS Tricks</a></li>
+                    <li><a href="http://www.smashingmagazine.com/">Smashing Magazine</a></li>
+                    <li><a href="http://www.webdesignerdepot.com/">Web Designer Depot</a></li>
+                    <li><a href="http://www.uxbooth.com/">UX Booth</a></li>
+                    <li><a href="http://sixrevisions.com/">Six Revisions</a></li>
+                    <li><a href="http://lifehacker.com/">Lifehacker</a></li>
+                    <li><a href="http://designm.ag/">DesignMag</a></li>
+                    <li><a href="http://www.theleagueofmoveabletype.com/">The League of Movable Type</a></li>
+                    <li><a href="http://webplatformdaily.org/">Web Platform Daily</a> - web digest for computer geeks</li>
+                    <li><a href="http://byjakewithlove.com/">By Jake, with Love</a></li>
+            </ul>
+          </li>
+
+          <li style="margin:auto">
+            <ul class="resources" id="fontsAndSymbols"> other tools
+                    <li><a href="https://wireframe.cc/">Wireframe Tool</a></li>
+                    <li><a href="http://html-ipsum.com/">Html Ipsum</a> - snippets</li>
+                    <li><a href="http://beanstalkapp.com/">Beanstalk</a> - manage your code</li>
+                    <li><a href="http://codepen.io/">Codepen</a> - create and view code snippets</li>
+                    <li><a href="http://getfirebug.com/">Firebug</a> - inspect and modify code</li>
+                    <li><a href="http://validator.w3.org/">W3C</a> - validate your code</li>
+                    <li><a href="http://www.mamp.info/en/index.html">MAMP</a> - develop locally</li>
+                    <li><a href="https://filezilla-project.org/">FTP Client</a> - upload files to webserver</li>
+                    <li><a href="https://kuler.adobe.com/create/color-wheel/">Abode Kuler</a> - color schemes</li>
+                    <li><a href="http://dummyimage.com/">Dummy Image Generator</a></li>
+                    <li><a href="https://snipt.net/">Snipt</a> - store and share snipets</li>
+                    <li><a href="http://basehold.it/">Basehold</a> - baseline grid</li>
+                    <li><a href="http://www.colorzilla.com/gradient-editor/">Mozilla's Gradient Generator</a></li>
+                    <li><a href="http://www.css3.me/">CSS3 Generator</a></li>
+                    <li><a href="http://www.css3maker.com">CSS3 Maker</a></li>
+                    <li><a href="http://www.teehanlax.com/tools/iphone/">iPhone GUI PSD</a></li>
+                    <li><a href="http://psdcollector.blogspot.com/search/label/PSD">PSD Collector</a> - PSD Templates</li>
+                    <li><a href="https://quirktools.com/">Quirktool</a> - site map, wireframe, test responsive, screen diagnostics</li>
+                    <li><a href="http://www.thegridsystem.org/">The Grid System</a></li>
+                    <li><a href="http://www.uiparade.com/ui-toolkit/">UI Toolkit</a></li>
+                    <li><a href="http://www.wirify.com/">Wirify</a> - wireframes</li>
+                    <li><a href="subtlepatterns.com">Subtle Patterns</a> - PS patterns</li>
+                    <li><a href="http://www.meteor.com/">Meteor</a> - build web apps easier</li>
+                    <li><a href="http://caniuse.com/">Can I Use</a> - browser compatibility</li>
+                    <li><a href="http://leaverou.github.io/prefixfree/">-prefix-free</a> - automated prefixes for browser compatability issues</li>
+                    <li><a href="http://leaverou.github.io/animatable/">Animatable</a> - CSS transitions gallery</li>
+                    <li><a href="http://cubic-bezier.com/">cubib-bezier</a> - preview transitions</li>
+                    <li><a href="http://lea.verou.me/css3patterns/">CSS3 Patterns</a></li>
+                    <li><a href="http://lea.verou.me/demos/cssgradientsplease/">CSS3 Gradients</a></li>
+                    <li><a href="http://jsbin.com/">JS Bin</a></li>
+                    <li><a href="http://jsfiddle.net/">JS Fiddle</a></li>
+                    <li><a href="http://middlemanapp.com/">Middlemanapp</a></li>
+            </ul>
+            <ul class="resources" id="generalTutorials"> CMS
+                    <li><a href="http://wordpress.org/">WordPress</a></li>
+                    <li><a href="http://www.joomla.org/">Joomla</a></li>
+                    <li><a href="https://drupal.org/">Drupal</a></li>
+                    <li><a href="http://www.squarespace.com/stories/#">SquareSpace</a></li>
+                    <li><a href="https://www.tumblr.com/">Tumblr</a></li>
+                    <li><a href="http://modx.com/">Modx</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <ul class="resources" id="hardcoreLearning"> HTML5
+                    <li><a href="http://www.htmlgoodies.com/html5/client/learn-html5-in-5-minutes-.html#fbid=w-01M4dptUC">Learn Html5 in 5 Minutes</a></li>
+                    <li><a href="http://www.html5tuts.co.uk/">Html5 tuts</a></li>
+                    <li><a href="http://webdesignledger.com/tips/html5-essentials-and-good-practices">Essentials and Good Practices</a></li>
+                    <li><a href="http://webrevisions.com/tutorials/html5-essentials-with-best-practices/#.Ue_Wl2QWtO8">Essentials with Best Practices</a> (yes different from the above)</li>
+                    <li><a href="http://www.catswhocode.com/blog/best-practices-for-efficient-html5-coding">Efficient Html5 Coding</a></li>
+                    <li><a href="http://www.html5rocks.com/en/tutorials/">Html5 Rocks</a></li>
+                    <li><a href="http://www.vtc.com/products/HTML5-Tutorials.htm">Vtc Html5 Course</a></li>
+                    <li><a href="https://www.udacity.com/course/cs255">Game Development with HTML5</a></li>
+                    <li><a href="http://mobile.dzone.com/news/html5-mobile-web-development">Html5 Mobile Web Development</a></li>
+                    <li><a href="http://diveintohtml5.info/">Dive into Html5</a></li>
+                    <li><a href="http://woorkup.com/2009/12/16/html5-visual-cheat-sheet-reloaded/">Html5 Cheat Sheet</a></li>
+                    <li><a href="http://html5gallery.com/">Html5 Gallery</a></li>
+                    <li><a href="http://www.programmr.com/index.php?q=zone/html">Programmr</a> - HTML Exercises, Examples &amp; Projects</li>
+                    <li><a href="http://html5hacks.com/">Html5 Hacks</a></li>
+            </ul>
+            <ul class="resources" id="generalTutorials"> JavaScript
+                    <li><a href="http://eloquentjavascript.net/index.html">Eloquent JavaScript</a></li>
+                    <li><a href="http://www.learningjquery.com/">Learning jQuery</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide?redirectlocale=en-US&redirectslug=JavaScript%2FGuide">Mozilla's Javascript guide</a></li>
+                    <li><a href="http://www.yuiblog.com/crockford/">Crockford on JavaScript</a></li>
+                    <li><a href="https://github.com/rmurphey/js-assessment">JavaScript Assestment Tests</a></li>
+                    <li><a href="http://ejohn.org/apps/learn/">Advanced JavaScript</a></li>
+                    <li><a href="http://learn.jquery.com/">Learn jQuery</a></li>
+                    <li><a href="http://bonsaiden.github.io/JavaScript-Garden/"></a></li>
+            </ul>
+            <ul class="resources" id="generalTutorials"> ruby (on rails)
+                    <li><a href="http://rubymonk.com/">Rubymonk</a></li>
+                    <li><a href="http://rubykoans.com/">Rubykoans</a></li>
+                    <li><a href="http://ruby-challenge.rubylearning.org/">Ruby Programming Challenges</a></li>
+                    <li><a href="http://ruby.railstutorial.org/ruby-on-rails-tutorial-book">Ruby on Rails tutorial</a> - book</li>
+                    <li><a href="http://pine.fm/LearnToProgram">Learn to Program</a></li>
+                    <li><a href="http://rubymonk.com/">Rubymonk</a></li>
+                    <li><a href="http://rubeque.herokuapp.com/">Rubeque</a> - solve Ruby problems</li>
+                    <li><a href="https://onemonthrails.com/">Learn Rails in 1 Month</a></li>
+                    <li><a href="http://net.tutsplus.com/tutorials/ruby/the-best-way-to-learn-ruby-on-rails/">Best Way to Learn ROR</a></li>
+            </ul>
+            <ul class="resources" id="generalTutorials"> others
+                    <li><a href="http://nathansjslessons.appspot.com/">Nathan's Lessons</a> - Closure</li>
+                    <li><a href="https://phpacademy.org/">PHP Academy</a></li>
+                    <li><a href="http://learnpythonthehardway.org/">Learn Python the Hard Way</a></li>
+                    <li><a href="http://twolivesleft.com/Codea/">Codea</a> - create on your iPad</li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="row">
+      <div class="large-5 large-centered columns">
+        <div class="social" style="padding-top:0px">
+        <a href="https://twitter.com/hellosunschein" target="_blank"><i class="fi-social-twitter" > </i></a>
+        <a href="mailto:lea.marolt@gmail.com?Subject=Howdy!" target="_top"><i class="fi-mail yel"> </i></a>
+        <a href="https://github.com/leamars" target="_blank"><i class="fi-social-github"> </i></a>
+        <a href="http://si.linkedin.com/in/leamarolt" target="_blank"><i class="fi-social-linkedin yel"> </i></a>
+        <a href="http://neparlepasraison.tumblr.com/" target="_blank"><i class="fi-social-tumblr"> </i></a>
+        <a href="https://medium.com/@hellosunschein" target="_blank"><i class="fi-social-medium yel"> </i></a>
+        <a href="https://dribbble.com/hellosunschein" target="_blank"><i class="fi-social-dribbble"> </i></a>
+        <a href="http://8tracks.com/hellosunschein" target="_blank"><i class="fi-music yel"> </i></a>
+      </div>
+      </div>
+
+    </div> <!-- bod -->
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/vendor/waypoints.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+        <script src="js/vendor/typed.js" type="text/javascript"></script>
+    <script>
+    $(function(){
+
+        $("#typed").typed({
+            strings: ["Hey. I'm Lea. \nI bring ideas to life. \n& listen to fabulous music while I do it."],
+            typeSpeed: 30,
+            backDelay: 500,
+            loop: false,
+            // defaults to false for infinite loop
+            loopCount: false,
+            callback: function(){},
+            resetCallback: function() { newTyped(); }
+        });
+
+    });
+
+
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
