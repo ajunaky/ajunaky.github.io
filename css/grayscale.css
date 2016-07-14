@@ -147,7 +147,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/violet.png) no-repeat bottom center scroll;
+   background: url(../images/weird.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -267,7 +267,7 @@ a:focus {
     color: #fff;
     min-height: 600px;
     max-height: 1000px;
-    background: url(../img/snarkyviolet.jpg) no-repeat center center scroll;
+    background: url(../images/wallpaper.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -370,7 +370,7 @@ body {
 /********************/
 /********************/
 
-#tinyviolet {
+#llewis {
     width: 26px; 
     height: 26px;
     padding: 5px;
