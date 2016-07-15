@@ -32,7 +32,7 @@ h6 {
 h1 {
 	font-weight: 700;
 	font-family: Dancing Script, "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 40em;
+	font-size: 4em;
 }
 
 p {
@@ -66,12 +66,16 @@ a:focus {
     font-weight: 400;
 }
 
-.navbar-custom {
+.navbar {
+	background-color: #fff;
+	
+}.navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(0,0,0,.3);
+    border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: Arima Madurai,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #fff;
+    color: #000;
 }
 
 .navbar-custom .navbar-brand {
@@ -94,7 +98,8 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: #000;
+    background-color: #fff;
 }
 
 .navbar-custom .nav li a {
@@ -120,7 +125,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a {
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(255,255,255,.3);
 }
 
 .navbar-custom .nav li.active a:hover {
