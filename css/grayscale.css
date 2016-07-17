@@ -25,6 +25,7 @@ h6 {
     font-family: Arima Madurai,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+	text-transform: none;
 }
 
 h1 {
@@ -36,13 +37,14 @@ h1 {
 h2 {
 	font-weight: 500;
 	font-family: Dancing Script, Arima Madurai, Helvetica, sans-serif;
-	font-size: 2em;
+	font-size: 3em;
 }
 
 p {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
+	font-family: Dancing Script, Arima Madurai, sans-serif;
 }
 
 @media(min-width:768px) {
