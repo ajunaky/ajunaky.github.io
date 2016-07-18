@@ -1,16 +1,39 @@
-/*
-* Globals
-*/
-/* Links */
-a:focus, a:visited, a:hover {
-color: #885ead;
-}
-/* Custom default button */
 
-.btn-default,
-.btn-default:hover,
-.btn-default:focus {
-text-shadow: none;  
+.headertitle, h1, #typed, #projectSquare {
+	display: inline-block;
+	margin-top: 20pt;
+	text-align: center;
+	color:white;
+	text-align: center;
+	font-size: 3em;
+	font-family: Ruthie, serif;
+	cursor: pointer;
+}
+
+
+.text, body, a, li, html {
+	font-family: Julie, serif;
+	font-weight: 300;
+	color: #fff;
+	font-style: normal;
+	background-color: #000;
+	text-align: center;
+}
+
+.textTiny, h3, h4, h5, h6 {
+	font-family: Julie, serif;
+	font-size: 1.7em;
+	font-weight: 300;
+	color: #885ead;
+	font-style: normal;
+}
+
+.emphasis, .light, p, h2 {
+	font-family: Eczar, serif;
+	font-size:  1.8em;
+	font-weight: 300;
+	color: white;
+	font-style: normal;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */	
@@ -52,43 +75,6 @@ width: 60px;
 opacity: 1;
 }
 
-.headertitle, h1, #typed, #projectSquare {
-	display: inline-block;
-	margin-top: 20pt;
-	text-align: center;
-	color:white;
-	text-align: center;
-	font-size: 3em;
-	font-family: Ruthie, serif;
-	cursor: pointer;
-}
-
-
-.text, body, a, li, html {
-	font-family: Julie, serif;
-	font-weight: 300;
-	color: #fff;
-	font-style: normal;
-	background-color: #000;
-	text-align: center;
-}
-
-.textTiny {
-	font-family: Julie, serif;
-	font-size: 1.7em;
-	font-weight: 300;
-	color: #885ead;
-	font-style: normal;
-}
-
-.emphasis, .light, p {
-	font-family: Eczar, serif;
-	font-size:  1.8em;
-	font-weight: 300;
-	color: white;
-	font-style: normal;
-}
-
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
@@ -109,6 +95,55 @@ opacity: 1;
     font-family: Kurale, Fanwood Text, serif;
 	background-color: #000;
 	color: #fff;
+}
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+   	background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.btn {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: Kurale, serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-default {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid #008080;
+    outline: 0;
+    color: #008080;
+	background-color: transparent;
+}
+
+
+footer {
+    padding: 50px 0;
+    padding-top: 80px;
+	background: #000;
+	font-weight: 500;
+	font-family: Allura, Euphoria Script, serif;
+	font-size: 2em;
+	color: #008080;
 }
 
 
@@ -163,53 +198,4 @@ opacity: 1;
 
 .navbar-custom .nav li.active a:hover {
     color: #fff;
-}
-
-.intro {
-    display: table;
-    width: 100%;
-    height: auto;
-    padding: 100px 0;
-    text-align: center;
-    color: #fff;
-   	background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.btn {
-    border-radius: 0;
-    text-transform: uppercase;
-    font-family: Kurale, serif;
-    font-weight: 400;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-
-.btn-default {
-    border: 1px solid #fff;
-    color: #fff;
-    background-color: transparent;
-}
-
-.btn-default:hover,
-.btn-default:focus {
-    border: 1px solid #008080;
-    outline: 0;
-    color: #008080;
-	background-color: transparent;
-}
-
-
-footer {
-    padding: 50px 0;
-    padding-top: 80px;
-	background: #000;
-	font-weight: 500;
-	font-family: Allura, Euphoria Script, serif;
-	font-size: 2em;
-	color: #008080;
 }
