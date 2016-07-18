@@ -22,7 +22,7 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
-    font-family: Kurale, serif;
+    font-family: Euphoria Script, Kurale, serif;
     font-weight: 700;
     letter-spacing: 1px;
 	text-transform: none;
@@ -320,7 +320,6 @@ a:focus {
     border: 1px solid #008080;
     outline: 0;
     color: #008080;
-    background-color: #fff;
 }
 
 ul.banner-social-buttons {
