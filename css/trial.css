@@ -27,7 +27,7 @@
 	font-style: normal;
 }
 
-.emphasis, .light, p, h3, h4{
+.emphasis, p, h3, h4{
 	font-family: Eczar, serif;
 	font-size:  1.5em;
 	font-weight: 300;
@@ -82,7 +82,7 @@ opacity: 1;
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: Kurale, Fanwood Text, serif;
+    font-family: Julee, serif;
     background-color: #000;
 }
 
@@ -95,7 +95,7 @@ opacity: 1;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    font-family: Kurale, Fanwood Text, serif;
+    font-family: Julee, serif;
 	background-color: #000;
 	color: #fff;
 }
@@ -117,7 +117,7 @@ opacity: 1;
 .btn {
     border-radius: 0;
     text-transform: uppercase;
-    font-family: Kurale, serif;
+    font-family: Julee, serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -139,12 +139,12 @@ opacity: 1;
 }
 
 
-footer {
+footer, .light {
     padding: 50px 0;
     padding-top: 80px;
 	background: #000;
 	font-weight: 500;
-	font-family: Allura, Euphoria Script, serif;
+	font-family: Ruthie, Julee, serif;
 	font-size: 2em;
 	color: #008080;
 }
