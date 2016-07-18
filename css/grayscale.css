@@ -301,8 +301,8 @@ a:focus {
 
 .btn {
     border-radius: 0;
-    text-transform: none;
-    font-family: Allura, serif;
+    text-transform: uppercase;
+    font-family: Kurale, serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -310,8 +310,8 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #008080;
-    color: #008080;
+    border: 1px solid #000;
+    color: #000;
     background-color: transparent;
 }
 
