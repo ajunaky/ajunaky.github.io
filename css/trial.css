@@ -74,11 +74,12 @@ opacity: 1;
 }
 
 
-.text, body, a, li {
+.text, body, a, li, html {
 	font-family: Julie, serif;
 	font-weight: 300;
-	color:white;
+	color: #fff;
 	font-style: normal;
+	background-color: #000;
 }
 
 .textTiny {
@@ -89,16 +90,12 @@ opacity: 1;
 	font-style: normal;
 }
 
-.emphasis {
+.emphasis, .light, p {
 	font-family: Eczar, serif;
 	font-size:  1.8em;
 	font-weight: 300;
 	color:red;
 	font-style: normal;
-}
-
-.light {
-    font-weight: 400;
 }
 
 .navbar-custom {
@@ -225,8 +222,3 @@ footer {
 	font-size: 2em;
 	color: #008080;
 }
-
-footer p {
-    margin: 0;
-}
-
