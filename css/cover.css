@@ -1,166 +1,243 @@
-/*
-* Globals
-*/
-/* Links */
-a:focus, a:visited, a:hover {
-			color: #885ead;
-		    }
-/* Custom default button */
 
-.btn-default,
+h1, #typed, #projectSquare {
+	display: inline-block;
+	margin-top: 20pt;
+	text-align: center;
+	color:white;
+	text-align: center;
+	font-size: 3em;
+	font-family: Ruthie, serif;
+}
+
+
+.text, body, a, html {
+	font-family: Eczar, serif;
+	font-weight: 300;
+	color: #fff;
+	font-size: 1.5em;
+	font-style: normal;
+	background-color: #000;
+	text-align: center;
+}
+
+.textTiny, h2, .headerTitle {
+	font-family: Julee, serif;
+	font-size: 2em;
+	font-weight: 300;
+	color: #885ead;
+	font-style: normal;
+}
+
+.emphasis, p, h3, h4{
+	font-family: Julee, serif;
+	font-size:  1.5em;
+	font-weight: 300;
+	color: white;
+	font-style: normal;
+}
+
+a:visited, a:hover {
+	color: #008080;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */	
+.site-wrapper, .site-wrapper2{
+display: table;
+
+width: 100%;
+height: 100%; /*For at least Firefox */
+min-height: 100%;
+-webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+background-position: center;
+background-repeat: no-repeat;
+font-size: 1.3em;
+background-color: 'black' ;
+}
+
+.site-wrapper-inner {
+display: table-cell;
+vertical-align: middle;
+
+}
+/* Handle the widths */
+.masthead,
+.mastfoot,
+.cover-container {
+width: 90%; /* Must be percentage or pixels for horizontal alignment */
+}
+
+
+.icon{
+opacity: 0.5;
+display: inline-block;
+height: 60px;
+width: 60px;
+}
+
+.icon:hover{
+opacity: 1;
+}
+
+.navbar-custom {
+    margin-bottom: 0;
+    font-family: Ruthie, serif;
+    background-color: #000;
+}
+
+#about, #experience, #contact {
+    width: 100%;
+    padding: 120px 0;
+    min-height: 600px;
+    max-height: 1000px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-family: Julee, serif;
+	background-color: #000;
+	color: #fff;
+}
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+   	background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.btn {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: Julee, serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-default {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+}
+
 .btn-default:hover,
 .btn-default:focus {
-    text-shadow: none;
+    border: 1px solid #008080;
+    outline: 0;
+    color: #008080;
+	background-color: transparent;
 }
 
-/*
-* Base structure
-*/
-html, a, body{
-    height: 100%;
-    font-size: 1.5 em;
-    font-family: 'Playfair Display', 'Lora', serif;
-    color: white;
-    text-align: center;
-    background-color: black ;
+
+footer, .light {
+    padding: 50px 0;
+    padding-top: 80px;
+	background: #000;
+	font-weight: 500;
+	font-family: Ruthie, Julee, serif;
+	font-size: 1.7em;
+	color: #fff;
 }
 
-#typed:after {
-    height: 100%;
-    font-size: 2.3 em;
-    font-family: 'Playfair Display', 'Lora', serif;
-    color: white;
-    text-align: center;
-    background-color: black ;
+
+.navbar-custom .navbar-brand {
+    font-weight: 700;
 }
 
-/* Extra markup and styles for table-esque vertical and horizontal centering */
-.site-wrapper {
-    display: table;
-
-    width: 100%;
-    height: 100%; /*For at least Firefox */
-    min-height: 100%;
-    -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-    box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-    background-position: center;
-    background-repeat: no-repeat;
-    font-size: 1.3em;
-    background-color: 'black' ;
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
 }
 
-.site-wrapper2 {
-
-    width: 100%;
-    height: 100%; /*For at least Firefox */
-    min-height: 100%;
-    -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-    box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-    background-position: center;
-    background-repeat: no-repeat;
-    font-size: 1.3em;
-    background-color: 'black' ;
-}
-.site-wrapper-inner {
-    display: table-cell;
-    vertical-align: top;
-}
-.cover-container {
-    margin-right: auto;
-    margin-left: auto;
-}
-/* Padding for spacing */
-.inner {
-    padding: 30px;
-}
-/*
-* Header
-*/
-.masthead-brand {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.masthead-nav > li {
-    display: inline-block;
-}
-.masthead-nav > li + li {
-    margin-left: 20px;
-}
-.masthead-nav > li > a {
-    padding-right: 0;
-    padding-left: 0;
-    font-size: 1.3em;
-    font-weight: bold;
-    color: #fff; /* IE8 proofing */
-    color: rgba(255,255,255,.75);
-    border-bottom: 2px solid transparent;
-}
-.masthead-nav > li > a:hover,
-.masthead-nav > li > a:focus {
-    background-color: transparent;
-    border-bottom-color: #a9a9a9;
-    border-bottom-color: rgba(255,255,255,.25);
-}
-.masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
     color: #fff;
-    border-bottom-color: #fff;
 }
-@media (min-width: 768px) {
-    .masthead-brand {
-	float: left;
-    }
-    .masthead-nav {
-	float: right;
-    }
 
-    /*
-* Cover
-*/
-    .cover {
-	padding: 0 20px;
-	/*background-image: url("black-wood.jpg") no-repeat scroll 0px 100% / cover transparent; */
-	background-color: 'black';
-	border: 0px solid #fff;
-	font-size: 2.0em;
-    }
-    .cover .btn-lg {
-	padding: 10px 20px;
-	font-weight: bold;
-    }
-    /*
-* Footer
-*/
-    .mastfoot {
-	color: #999; /* IE8 proofing */
-	color: rgb(255, 255, 255);
-    }
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
 
-    .mastfoot {
-	position: relative;
-	bottom: 0;
-    }
-    /* Start the vertical centering */
-    .site-wrapper-inner {
-	vertical-align: middle;
+.navbar-custom a {
+    color: #fff;
+}
 
-    }
-    /* Handle the widths */
-    .masthead,
-    .mastfoot,
-    .cover-container {
-	width: 100%; /* Must be percentage or pixels for horizontal alignment */
-    }
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
 
+.navbar-custom .nav li a:hover {
+    outline: 0;
+    color: rgba(255,255,255,.8);
+    background-color: transparent;
+}
 
-    .icon{
-	opacity: 0.6;
-	display: inline-block;
-	height: 60px;
-	width: 60px;
-    }
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+    outline: 0;
+    background-color: transparent;
+}
 
-    .icon:hover{
-	opacity: 1;
-    }
+.navbar-custom .nav li.active {
+    outline: 0;
+}
+
+.navbar-custom .nav li.active a {
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li.active a:hover {
+    color: #fff;
+}
+
+.projects {
+    margin-top:10pt;
+}
+
+.wideContentBox {
+    height:100%;
+}
+
+.content {
+    display:none;
+}
+
+.box img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    transition-duration: 0.5s, 0.3s;
+    -webkit-transition-duration: 0.5s, 0.3s;
+    -moz-transition-duration: 0.5s, 0.3s;
+    -o-transition-duration: 0.5s, 0.3s;
+    -ms-transition-duration: 0.5s, 0.3s;
+    width:50px;
+    height:50px;
+}
+
+.box img:hover {
+    filter: none;
+    -webkit-filter: none;
+    -moz-filter: none;
+    -o-filter: none;
+    -ms-filter: none;
+    transition-duration: 0.5s, 0.3s;
+    -webkit-transition-duration: 0.5s, 0.3s;
+    -moz-transition-duration: 0.5s, 0.3s;
+    -o-transition-duration: 0.5s, 0.3s;
+    -ms-transition-duration: 0.5s, 0.3s;
+}
