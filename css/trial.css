@@ -11,7 +11,7 @@
 }
 
 
-.text, body, a, li, html {
+.text, body, a, html {
 	font-family: Julie, serif;
 	font-weight: 300;
 	color: #fff;
