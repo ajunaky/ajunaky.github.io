@@ -48,6 +48,7 @@ p {
     font-size: 18px;
     line-height: 1.5;
 	font-family: Kurale, Fanwood Text, serif;
+	color: #fff;
 }
 
 @media(min-width:768px) {
@@ -94,7 +95,7 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: #000;
+    color: #fff;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
