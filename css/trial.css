@@ -63,7 +63,7 @@ vertical-align: middle;
 .masthead,
 .mastfoot,
 .cover-container {
-width: 100%; /* Must be percentage or pixels for horizontal alignment */
+width: 90%; /* Must be percentage or pixels for horizontal alignment */
 }
 
 
