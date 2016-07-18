@@ -59,7 +59,7 @@ p {
 }
 
 a {
-    color: #59269A;
+    color: #008080;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -297,8 +297,8 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #000;
-    color: #000;
+    border: 1px solid #008080;
+    color: #008080;
     background-color: transparent;
 }
 
