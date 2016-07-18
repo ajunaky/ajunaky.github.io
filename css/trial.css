@@ -52,7 +52,7 @@ width: 60px;
 opacity: 1;
 }
 
-.headertitle, h1, #typed:after, #projectSquare {
+.headertitle, h1, #typed, #projectSquare {
 	display: inline-block;
 	margin-top: 20pt;
 	text-align: center;
@@ -70,6 +70,7 @@ opacity: 1;
 	color: #fff;
 	font-style: normal;
 	background-color: #000;
+	text-align: center;
 }
 
 .textTiny {
