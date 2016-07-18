@@ -11,7 +11,7 @@
 }
 
 
-.text, body, a, html {
+.text, body, a, html, h5, h6,{
 	font-family: Julie, serif;
 	font-weight: 300;
 	color: #fff;
@@ -20,17 +20,17 @@
 	text-align: center;
 }
 
-.textTiny, h3, h4, h5, h6 {
+.textTiny, h2 {
 	font-family: Julie, serif;
-	font-size: 1.7em;
+	font-size: 2em;
 	font-weight: 300;
 	color: #885ead;
 	font-style: normal;
 }
 
-.emphasis, .light, p, h2 {
+.emphasis, .light, p, h3, h4 {
 	font-family: Eczar, serif;
-	font-size:  1.8em;
+	font-size:  1.5em;
 	font-weight: 300;
 	color: white;
 	font-style: normal;
