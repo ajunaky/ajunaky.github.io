@@ -16,10 +16,10 @@ text-shadow: none;
 /*
 * Base structure
 */
-html, a, body{
+li, html, a, body{
 height: 100%;
 font-size: 1.5 em;
-font-family: Eczar, Julee, serif;
+font-family: Julee, serif;
 color: white;
 text-align: center;
 background-color: black ;
@@ -155,7 +155,7 @@ width: 100%; /* Must be percentage or pixels for horizontal alignment */
 
 
 .icon{
-opacity: 0.6;
+opacity: 0.2;
 display: inline-block;
 height: 60px;
 width: 60px;
