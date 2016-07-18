@@ -83,17 +83,19 @@ a:focus {
     background-color: #000;
 }
 
-#about, #experience, #connect {
+#about, #experience, #contact {
     width: 100%;
     padding: 120px 0;
     color: #fff;
     min-height: 600px;
     max-height: 1000px;
-    background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    font-family: Kurale, Fanwood Text, serif;
+    color: #fff;
+    background-color: #000;
 }
 
 
