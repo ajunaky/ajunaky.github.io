@@ -13,27 +13,6 @@ color: #885ead;
 text-shadow: none;  
 }
 
-/*
-* Base structure
-*/
-li, html, a, body{
-height: 100%;
-font-size: 1.5 em;
-font-family: Julee, serif;
-color: white;
-text-align: center;
-background-color: black ;
-}
-
-#typed:after {
-	height: 100%;
-	font-size: 2.3 em;
-	font-family: Ruthie, Julie, serif;
-	color: white;
-	text-align: center;
-	background-color: black ;
-}
-
 /* Extra markup and styles for table-esque vertical and horizontal centering */	
 .site-wrapper, .site-wrapper2{
 display: table;
@@ -51,86 +30,6 @@ background-color: 'black' ;
 
 .site-wrapper-inner {
 display: table-cell;
-vertical-align: top;
-}
-.cover-container {
-margin-right: auto;
-margin-left: auto;
-}
-/* Padding for spacing */
-.inner {
-padding: 30px;
-}
-/*
-* Header
-*/
-.masthead-brand {
-margin-top: 10px;
-margin-bottom: 10px;
-}
-.masthead-nav > li {
-display: inline-block;
-}
-.masthead-nav > li + li {
-margin-left: 20px;
-}
-.masthead-nav > li > a {
-padding-right: 0;
-padding-left: 0;
-font-size: 1.3em;
-font-weight: bold;
-color: #fff; /* IE8 proofing */
-color: rgba(255,255,255,.75);
-border-bottom: 2px solid transparent;
-}
-.masthead-nav > li > a:hover,
-.masthead-nav > li > a:focus {
-background-color: transparent;
-border-bottom-color: #a9a9a9;
-border-bottom-color: rgba(255,255,255,.25);
-}
-.masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
-color: #fff;
-border-bottom-color: #fff;
-}
-@media (min-width: 768px) {
-.masthead-brand {
-float: left;
-}
-.masthead-nav {
-float: right;
-}
-
-/*
-* Cover
-*/
-.cover {
-padding: 0 20px;
-/*background-image: url("black-wood.jpg") no-repeat scroll 0px 100% / cover transparent; */
-background-color: 'black';
-border: 0px solid #fff;
-font-size: 2.0em;￿
-}
-.cover .btn-lg {
-padding: 10px 20px;
-font-weight: bold;
-}
-/*
-* Footer
-*/
-.mastfoot {
-color: #999; /* IE8 proofing */
-color: rgb(255, 255, 255);
-}
-
-.mastfoot {
-position: relative;
-bottom: 0;
-}
-/* Start the vertical centering */
-.site-wrapper-inner {
 vertical-align: middle;
 
 }
@@ -143,7 +42,7 @@ width: 100%; /* Must be percentage or pixels for horizontal alignment */
 
 
 .icon{
-opacity: 0.2;
+opacity: 0.5;
 display: inline-block;
 height: 60px;
 width: 60px;
@@ -151,17 +50,6 @@ width: 60px;
 
 .icon:hover{
 opacity: 1;
-}
-
-body {
-	font-family: Eczar, Julee, serif;
-	color: 'white';
-	font-weight: 300;
-}
-
-h1 {
-	font-size: 2.2em;
-	font-weight: 300;
 }
 
 #projectSquare {
@@ -174,70 +62,19 @@ h1 {
     text-align: center;
 }
 
-.headertitle {
+.headertitle, h1, #typed:after {
 	display: inline-block;
 	margin-top: 20pt;
 	text-align: center;
 	color:white;
-}
-
-.headerTitle {
 	text-align: center;
-	font-size: 40pt;
+	font-size: 3em;
 	font-family: Ruthie, serif;
 	cursor: pointer;
 }
 
-.projects {
-	margin-top:10pt;
-}
 
-.wideContentBox {
-	height:100%;
-}
-
-.content {
-	display:none;
-}
-
-#footer {
-	background-color:black;
-}
-
-.box {
-	background-color: black;
-}
-
-.box img {
-	filter: grayscale(100%);
-	-webkit-filter: grayscale(100%);
-	-moz-filter: grayscale(100%);
-	-o-filter: grayscale(100%);
-	-ms-filter: grayscale(100%);
-	transition-duration: 0.5s, 0.3s;
-	-webkit-transition-duration: 0.5s, 0.3s;
-	-moz-transition-duration: 0.5s, 0.3s;
-	-o-transition-duration: 0.5s, 0.3s;
-	-ms-transition-duration: 0.5s, 0.3s;
-	width:50px;
-	height:50px;
-}
-
-.box img:hover {
-	filter: none;
-	-webkit-filter: none;
-	-moz-filter: none;
-	-o-filter: none;
-	-ms-filter: none;
-	transition-duration: 0.5s, 0.3s;
-	-webkit-transition-duration: 0.5s, 0.3s;
-	-moz-transition-duration: 0.5s, 0.3s;
-	-o-transition-duration: 0.5s, 0.3s;
-	-ms-transition-duration: 0.5s, 0.3s;
-}
-
-
-.text {
+.text, body, a, li {
 	font-family: Julie, serif;
 	font-weight: 300;
 	color:white;
@@ -258,5 +95,138 @@ h1 {
 	font-weight: 300;
 	color:red;
 	font-style: normal;
+}
+
+.light {
+    font-weight: 400;
+}
+
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    font-family: Kurale, Fanwood Text, serif;
+    background-color: #000;
+}
+
+#about, #experience, #contact {
+    width: 100%;
+    padding: 120px 0;
+    min-height: 600px;
+    max-height: 1000px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-family: Kurale, Fanwood Text, serif;
+	background-color: #000;
+	color: #fff;
+}
+
+
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #fff;
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover {
+    outline: 0;
+    color: rgba(255,255,255,.8);
+    background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+    outline: 0;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li.active {
+    outline: 0;
+}
+
+.navbar-custom .nav li.active a {
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li.active a:hover {
+    color: #fff;
+}
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+   	background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.btn {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: Kurale, serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-default {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid #008080;
+    outline: 0;
+    color: #008080;
+	background-color: transparent;
+}
+
+
+footer {
+    padding: 50px 0;
+    padding-top: 80px;
+	background: #000;
+	font-weight: 500;
+	font-family: Allura, Euphoria Script, serif;
+	font-size: 2em;
+	color: #008080;
+}
+
+footer p {
+    margin: 0;
 }
 

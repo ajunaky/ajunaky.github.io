@@ -95,6 +95,8 @@ a:focus {
     font-family: Kurale, Fanwood Text, serif;
 	background-color: #000;
 	color: #fff;
+    padding-top: 80px;
+    padding-bottom: -20px;
 }
 
 
@@ -383,22 +385,4 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
-}
-
-/********************/
-/********************/
-/* CUSTOM OVERRIDES */
-/********************/
-/********************/
-
-#llewis {
-    width: 26px; 
-    height: 26px;
-    padding: 5px;
-}
-
-#about {
-    padding-top: 80px;
-    padding-bottom: -20px;
-    max-height: 100px;
 }
