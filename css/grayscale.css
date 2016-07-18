@@ -4,7 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
+body, html {
     width: 100%;
     height: 100%;
     font-family: Kurale, Fanwood Text, serif;
@@ -12,10 +12,6 @@ body {
     background-color: #000;
 }
 
-html {
-    width: 100%;
-    height: 100%;
-}
 
 h3,
 h4,
