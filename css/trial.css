@@ -11,7 +11,7 @@
 
 
 .text, body, a, html {
-	font-family: Julie, serif;
+	font-family: Julee, serif;
 	font-weight: 300;
 	color: #fff;
 	font-style: normal;
@@ -20,19 +20,23 @@
 }
 
 .textTiny, h2 {
-	font-family: Julie, serif;
+	font-family: Julee, serif;
 	font-size: 2em;
 	font-weight: 300;
 	color: #885ead;
 	font-style: normal;
 }
 
-.emphasis, .light, p, h3, h4, a:visited, a:hover {
+.emphasis, .light, p, h3, h4{
 	font-family: Eczar, serif;
 	font-size:  1.5em;
 	font-weight: 300;
 	color: white;
 	font-style: normal;
+}
+
+a:visited, a:hover {
+	color: #008080;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */	
