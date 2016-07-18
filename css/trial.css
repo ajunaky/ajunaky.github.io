@@ -1,5 +1,5 @@
 
-.headertitle, h1, #typed, #projectSquare {
+h1, #typed, #projectSquare {
 	display: inline-block;
 	margin-top: 20pt;
 	text-align: center;
@@ -19,7 +19,7 @@
 	text-align: center;
 }
 
-.textTiny, h2 {
+.textTiny, h2, .headerTitle {
 	font-family: Julee, serif;
 	font-size: 2em;
 	font-weight: 300;
@@ -80,8 +80,7 @@ opacity: 1;
 
 .navbar-custom {
     margin-bottom: 0;
-    text-transform: uppercase;
-    font-family: Julee, serif;
+    font-family: Ruthie, serif;
     background-color: #000;
 }
 
@@ -200,36 +199,4 @@ footer, .light {
 
 .navbar-custom .nav li.active a:hover {
     color: #fff;
-}
-
-.box .row {
-    background-color: black;
-}
-
-.box img .row {
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    transition-duration: 0.5s, 0.3s;
-    -webkit-transition-duration: 0.5s, 0.3s;
-    -moz-transition-duration: 0.5s, 0.3s;
-    -o-transition-duration: 0.5s, 0.3s;
-    -ms-transition-duration: 0.5s, 0.3s;
-    width:50px;
-    height:50px;
-}
-
-.box img:hover .row{
-    filter: none;
-    -webkit-filter: none;
-    -moz-filter: none;
-    -o-filter: none;
-    -ms-filter: none;
-    transition-duration: 0.5s, 0.3s;
-    -webkit-transition-duration: 0.5s, 0.3s;
-    -moz-transition-duration: 0.5s, 0.3s;
-    -o-transition-duration: 0.5s, 0.3s;
-    -ms-transition-duration: 0.5s, 0.3s;
 }
