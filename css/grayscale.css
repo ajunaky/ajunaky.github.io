@@ -276,19 +276,6 @@ a:focus {
     padding-top: 100px;
 }
 
-#about {
-    width: 100%;
-    padding: 120px 0;
-    color: #fff;
-    min-height: 600px;
-    max-height: 1000px;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
 @media(min-width:767px) {
     .content-section {
         padding-top: 250px;
