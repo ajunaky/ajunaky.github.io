@@ -4,8 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-<link href="https://fonts.googleapis.com/css?family=Allura|Dancing+Script|Euphoria+Script|Fanwood+Text|Kurale" rel="stylesheet">
-
 body {
     width: 100%;
     height: 100%;
@@ -93,6 +91,7 @@ a:focus {
     background-size: cover;
     -o-background-size: cover;
     font-family: Kurale, Fanwood Text, serif;
+	background-color: #000;
 }
 
 
