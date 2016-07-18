@@ -52,17 +52,7 @@ width: 60px;
 opacity: 1;
 }
 
-#projectSquare {
-    width: 200px;
-    height: 200px;
-    color: white;
-    margin: 0 auto;
-    font-family: Eczar, serif;
-    font-size: 1.2em;
-    text-align: center;
-}
-
-.headertitle, h1, #typed:after {
+.headertitle, h1, #typed:after, #projectSquare {
 	display: inline-block;
 	margin-top: 20pt;
 	text-align: center;
@@ -94,7 +84,7 @@ opacity: 1;
 	font-family: Eczar, serif;
 	font-size:  1.8em;
 	font-weight: 300;
-	color:red;
+	color: white;
 	font-style: normal;
 }
 
