@@ -1,5 +1,5 @@
 body {
-	font-family: 'Playfair Display', 'Lora', serif;
+	font-family: Julee, Eczar, serif;
 	color: 'white';
 	font-weight: 300;
 }
@@ -14,7 +14,7 @@ h1 {
     height: 200px;
     color: white;
     margin: 0 auto;
-    font-family: 'Lora', serif;
+    font-family: Eczar, serif;
     font-size: 1.2em;
     text-align: center;
 }
@@ -29,9 +29,8 @@ h1 {
 .headerTitle {
 	text-align: center;
 	font-size: 40pt;
-	font-family: "Lora", serif;
+	font-family: Ruthie, serif;
 	cursor: pointer;
-	font-style: italic;
 }
 
 .projects {
@@ -84,14 +83,14 @@ h1 {
 
 
 .text {
-	font-family: "Playfair Display";
+	font-family: Ruthie, serif;
 	font-weight: 300;
 	color:white;
 	font-style: normal;
 }
 
 .textTiny {
-	font-family: "Playfair Display";
+	font-family: Julee, serif;
 	font-size: 1.7em;
 	font-weight: 300;
 	color: #885ead;
@@ -99,7 +98,7 @@ h1 {
 }
 
 .emphasis {
-	font-family: "Playfair Display";
+	font-family: Eczar, serif;
 	font-size:  1.8em;
 	font-weight: 300;
 	color:red;
