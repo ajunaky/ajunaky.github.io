@@ -10,17 +10,17 @@ h1, #typed, #projectSquare {
 }
 
 
-.text, body, a, html {
+.text, body, a, html, li {
 	font-family: Eczar, serif;
 	font-weight: 300;
 	color: #fff;
-	font-size: 20pt;
+	font-size: 10pt;
 	font-style: normal;
 	background-color: #000;
 	text-align: center;
 }
 
-.textTiny, h2, .headerTitle {
+h2, .headerTitle {
 	font-family: Qwigley, serif;
 	font-size: 2em;
 	font-weight: 300;
@@ -28,7 +28,15 @@ h1, #typed, #projectSquare {
 	font-style: normal;
 }
 
-.emphasis, p, h3, h4{
+.textTiny, h3 {
+	font-family: Julee, serif;
+	font-size: 1.7em;
+	font-weight: 250;
+	color: #fff;
+	font-style: normal;
+}
+
+.emphasis, p, h4{
 	font-family: Julee, serif;
 	font-size:  1.5em;
 	font-weight: 300;
@@ -81,7 +89,7 @@ opacity: 1;
 
 .navbar-custom {
     margin-bottom: 0;
-    font-family: Ruthie, serif;
+    font-family: Qwigley, serif;
     background-color: #000;
 }
 
@@ -143,7 +151,7 @@ footer, .light {
     padding-top: 80px;
 	background: #000;
 	font-weight: 500;
-	font-family: Ruthie, Julee, serif;
+	font-family: Qwigley, Julee, serif;
 	font-size: 1.7em;
 	color: #fff;
 }
@@ -161,6 +169,7 @@ footer, .light {
     padding: 4px 6px;
     font-size: 16px;
     color: #fff;
+	font-family: Qwigley, Julee, serif;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
