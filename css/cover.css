@@ -1,4 +1,3 @@
-
 h1, #typed, #projectSquare {
 	display: inline-block;
 	margin-top: 20pt;
@@ -17,6 +16,7 @@ h1, #typed, #projectSquare {
 	font-size: 10pt;
 	font-style: normal;
 	background-color: #000;
+	background: images/purpleskies.jpg;
 	text-align: center;
 }
 
