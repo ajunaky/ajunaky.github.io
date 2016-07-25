@@ -17,6 +17,7 @@ h1, #typed, #projectSquare {
 	font-style: normal;
 	text-align: center;
 	background-color: #000;
+	background: images/purpleskies.jpg;
 }
 
 h2, .headerTitle {
@@ -28,7 +29,7 @@ h2, .headerTitle {
 }
 
 .textTiny, h3 {
-	font-family: Julee, serif;
+	font-family: Eczar, serif;
 	font-size: 1.7em;
 	font-weight: 250;
 	color: #fff;
@@ -36,7 +37,7 @@ h2, .headerTitle {
 }
 
 .emphasis, p, h4{
-	font-family: Julee, serif;
+	font-family: Eczar, serif;
 	font-size:  1.5em;
 	font-weight: 300;
 	color: white;
