@@ -16,6 +16,7 @@ h1, #typed, #projectSquare {
 	font-size: 14pt;
 	font-style: normal;
 	text-align: center;
+	background-color: #000;
 }
 
 h2, .headerTitle {
