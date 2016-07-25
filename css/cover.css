@@ -59,7 +59,6 @@ box-shadow: inset 0 0 100px rgba(0,0,0,.5);
 background-position: center;
 background-repeat: no-repeat;
 font-size: 1.3em;
-background-color: 'black' ;
 }
 
 .site-wrapper-inner {
@@ -89,7 +88,6 @@ opacity: 1;
 .navbar-custom {
     margin-bottom: 0;
     font-family: Qwigley, serif;
-    background-color: #000;
 }
 
 #about, #experience, #contact {
@@ -102,7 +100,6 @@ opacity: 1;
     background-size: cover;
     -o-background-size: cover;
     font-family: Julee, serif;
-	background-color: #000;
 	color: #fff;
 }
 
@@ -113,7 +110,6 @@ opacity: 1;
     padding: 100px 0;
     text-align: center;
     color: #fff;
-   	background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -148,7 +144,6 @@ opacity: 1;
 footer, .light {
     padding: 50px 0;
     padding-top: 80px;
-	background: #000;
 	font-weight: 500;
 	font-family: Qwigley, Julee, serif;
 	font-size: 1.7em;
@@ -198,12 +193,8 @@ footer, .light {
     background-color: transparent;
 }
 
-.navbar-custom .nav li.active {
-    outline: 0;
-}
-
 .navbar-custom .nav li.active a {
-    background-color: rgba(255,255,255,.3);
+    outline: 0;
 }
 
 .navbar-custom .nav li.active a:hover {
