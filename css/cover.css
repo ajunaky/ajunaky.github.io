@@ -17,7 +17,6 @@ h1, #typed, #projectSquare {
 	font-style: normal;
 	text-align: center;
 	background-color: #000;
-	background: "images/purpleskies.jpg";
 }
 
 h2, .headerTitle {
@@ -152,7 +151,7 @@ footer, .light {
     padding-top: 80px;
 	font-weight: 500;
 	font-family: Qwigley, Julee, serif;
-	font-size: 1em;
+	font-size: 1.4em;
 	color: #fff;
 }
 
