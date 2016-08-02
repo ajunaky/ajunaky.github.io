@@ -4,12 +4,12 @@ h1, #typed, #projectSquare {
 	text-align: center;
 	color:white;
 	text-align: center;
-	font-size: 3.5em;
-	font-family: Aref Ruqaa, Qwigley, serif;
+	font-size: 3.0em;
+	font-family: Qwigley, Aref Ruqaa, serif;
 }
 
 
-.text, body, a, html, li {
+.text, body, html, li {
 	font-family: Eczar, serif;
 	font-weight: 300;
 	color: #fff;
@@ -17,7 +17,7 @@ h1, #typed, #projectSquare {
 	font-style: normal;
 	text-align: center;
 	background-color: #000;
-	background: images/purpleskies.jpg;
+	background: "images/purpleskies.jpg";
 }
 
 h2, .headerTitle {
@@ -44,8 +44,12 @@ h2, .headerTitle {
 	font-style: normal;
 }
 
-a:visited, a:hover {
+a:visited, a {
 	color: #008080;
+}
+
+a:hover {
+	color: #fff;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */	
