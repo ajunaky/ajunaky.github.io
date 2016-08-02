@@ -49,6 +49,7 @@ a:visited, a {
 
 a:hover {
 	color: #fff;
+	font-style: normal;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */	
