@@ -49,3 +49,12 @@ sudo datadog-agent status
 sudo java -javaagent:dd-java-agent.jar   -Ddd.profiling.enabled=true   -XX:FlightRecorderOptions=stackdepth=256   -Ddd.logs.injection=true   -Ddd.service=minecraft -Xmx1024M -Xms1024M -jar server.jar nogui
 
 // Enable JMX monitoring and whitelist in server.properties
+
+java -javaagent:dd-java-agent.jar \
+  -Ddd.profiling.enabled=true \
+  -XX:FlightRecorderOptions=stackdepth=256 \
+  -Ddd.logs.injection=true \
+  -Ddd.service=minecraft \
+  -jar server.jar
+
+sudo java -Dcom.sun.management.jmxremote.port=80 -Dcom.sun.management.jmxremote.authenticate=false -javaagent:dd-java-agent.jar -Ddd.profiling.enabled=true -XX:FlightRecorderOptions=stackdepth=256 -Ddd.logs.injection=true -Ddd.service=minecraft -Xmx1024M -Xms1024M -jar server.jar nogui
