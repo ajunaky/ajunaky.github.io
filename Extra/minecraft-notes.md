@@ -25,7 +25,7 @@ sudo java -Xmx1024M -Xms1024M -jar server.jar nogui
 // Look at DD dashboard https://app.datadoghq.com/dashboard/c6h-kud-4f9/minecraft-overview-with-jvm-metrics?from_ts=1687493507067&to_ts=1687497107067&live=true
 
 // Add DD agent
-sudo DD_API_KEY=456a3ae9c5d4c9047dadaa9162650c29 DD_SITE="datadoghq.com" bash -c "$(curl -L https://s3.amazonaws.com/dd-agent/scripts/install_script_agent7.sh)"
+sudo DD_API_KEY=$DD_API_KEY DD_SITE="datadoghq.com" bash -c "$(curl -L https://s3.amazonaws.com/dd-agent/scripts/install_script_agent7.sh)"
 sudo dnf install -y libxcrypt-compat
 
 // Add Java agent https://app.datadoghq.com/apm/service-setup?architecture=host-based&language=java&profiling=true
