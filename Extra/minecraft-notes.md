@@ -58,3 +58,42 @@ java -javaagent:dd-java-agent.jar \
   -jar server.jar
 
 sudo java -Dcom.sun.management.jmxremote.port=80 -Dcom.sun.management.jmxremote.authenticate=false -javaagent:dd-java-agent.jar -Ddd.profiling.enabled=true -XX:FlightRecorderOptions=stackdepth=256 -Ddd.logs.injection=true -Ddd.service=minecraft -Xmx1024M -Xms1024M -jar server.jar nogui
+
+
+
+// September StackConf
+
+sudo yum install java-17-amazon-corretto
+wget https://download.getbukkit.org/craftbukkit/craftbukkit-1.20.1.jar
+java -jar craftbukkit-1.20.1.jar
+emacs eula.txt
+java -jar craftbukkit-1.20.1.jar
+cd plugins/
+wget https://github.com/sladkoff/minecraft-prometheus-exporter/releases/download/v2.5.0/minecraft-prometheus-exporter-2.5.0.jar
+java -jar craftbukkit-1.20.1.jar
+curl 127.0.0.1:9225/metrics
+wget https://github.com/open-telemetry/opentelemetry-collector-releases/releases/download/v0.84.0/otelcol_0.84.0_linux_amd64.rpm
+sudo yum install ./otelcol_0.84.0_linux_amd64.rpm
+sudo emacs /etc/otelcol/config.yaml
+sudo systemctl restart otelcol
+
+
+journalctl -f
+
+  # Collect own metrics
+  prometheus:
+    config:
+      scrape_configs:
+        #      - job_name: 'otel-collector'
+        #scrape_interval: 10s
+        #static_configs:
+        #- targets: ['0.0.0.0:8888']
+      - job_name: 'minecraft'
+        scrape_interval: 10s
+        static_configs:
+        - targets: ['127.0.0.1:9225']
+
+// References
+https://docs.datadoghq.com/opentelemetry/otel_collector_datadog_exporter/?tab=onahost
+https://github.com/sladkoff/minecraft-prometheus-exporter
+https://github.com/sladkoff/minecraft-prometheus-exporter
